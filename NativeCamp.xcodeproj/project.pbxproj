@@ -14,6 +14,8 @@
 		42271AF42948807700DD41E8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42271AF32948807700DD41E8 /* HomeView.swift */; };
 		42271AF72948869F00DD41E8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42271AF62948869F00DD41E8 /* MainView.swift */; };
 		42271AFA2948870400DD41E8 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42271AF92948870400DD41E8 /* SearchBar.swift */; };
+		42AE2B24294F1330009692EF /* FilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AE2B23294F1330009692EF /* FilterBar.swift */; };
+		42AE2B26294F187B009692EF /* TeacherBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AE2B25294F187B009692EF /* TeacherBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		42271AF32948807700DD41E8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		42271AF62948869F00DD41E8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		42271AF92948870400DD41E8 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		42AE2B23294F1330009692EF /* FilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBar.swift; sourceTree = "<group>"; };
+		42AE2B25294F187B009692EF /* TeacherBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,6 @@
 				42271AE729487D0C00DD41E8 /* ContentView.swift */,
 				42271AE929487D0D00DD41E8 /* Assets.xcassets */,
 				42271AEB29487D0D00DD41E8 /* Preview Content */,
-				42271AF32948807700DD41E8 /* HomeView.swift */,
 				42271AF62948869F00DD41E8 /* MainView.swift */,
 			);
 			path = NativeCamp;
@@ -79,7 +82,10 @@
 		42271AF8294886F700DD41E8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				42271AF32948807700DD41E8 /* HomeView.swift */,
 				42271AF92948870400DD41E8 /* SearchBar.swift */,
+				42AE2B23294F1330009692EF /* FilterBar.swift */,
+				42AE2B25294F187B009692EF /* TeacherBar.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -155,10 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				42271AF42948807700DD41E8 /* HomeView.swift in Sources */,
+				42AE2B26294F187B009692EF /* TeacherBar.swift in Sources */,
 				42271AF72948869F00DD41E8 /* MainView.swift in Sources */,
 				42271AFA2948870400DD41E8 /* SearchBar.swift in Sources */,
 				42271AE829487D0C00DD41E8 /* ContentView.swift in Sources */,
 				42271AE629487D0C00DD41E8 /* NativeCampApp.swift in Sources */,
+				42AE2B24294F1330009692EF /* FilterBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -33,7 +33,7 @@ struct SearchBar: View {
             
         )
         .font(.headline)
-        .padding()
+        .padding(10)
         .background(
             RoundedRectangle(cornerRadius: 15)
                 .fill(Color.white)

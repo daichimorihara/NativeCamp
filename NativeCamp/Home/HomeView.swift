@@ -16,10 +16,12 @@ struct HomeView: View {
                 HStack {
                     SearchBar(searchText: $text)
 
-                    
+                    FilterBar()
                 }
             }
             .ignoresSafeArea()
+            
+            
         }
     }
 
